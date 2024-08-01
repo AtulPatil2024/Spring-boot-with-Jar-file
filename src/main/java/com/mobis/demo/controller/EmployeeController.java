@@ -22,7 +22,8 @@ import com.mobis.demo.service.EmployeeService;
 
 import lombok.AllArgsConstructor;
 
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/v1/employee")
